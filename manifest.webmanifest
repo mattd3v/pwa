@@ -1,0 +1,31 @@
+{
+  "short_name": "Developer",
+  "name": "Matt Dumler",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/images/icons/favicon-16x16.png",
+      "type": "images/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/images/icons/faviconchrome-32x32.png",
+      "type": "images/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/images/icons/android-chrome-192x192.png",
+      "type": "images/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/android-chrome-512x512.png",
+      "type": "images/png",
+      "sizes": "512x512"
+    }
+  ]
+}
