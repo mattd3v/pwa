@@ -12,7 +12,7 @@ env:
 jobs:
   deploy:
     name: Firebase Deploy
-    runs-on: ubuntu-lts
+    runs-on: ubuntu-latest
     steps:
       - uses: w9jds/firebase-action@v1.3.0
         with:
