@@ -3,81 +3,85 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
-    <link rel="manifest" type="application/manifest+json" href="manifest.webmanifest">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-
     <title>Matt Dumler</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <!-- Font Awesome icons script -->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <style>
-    article {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    nav, address {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-    a {
-      font-size: 2rem;
-      margin: 0.5rem 1.5rem;
-    }
-    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+
+    <!-- Manifest file -->
+    <link rel="manifest" type="application/manifest+json" href="manifest.webmanifest">
+
+    <!-- Bulma CSS framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Apple metatags for PWA support on iOS -->
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   </head>
 
-  <body>
-  <section class="hero is-fullheight">
+  <body class="hero is-fullheight">
     <div class="hero-body">
-      <div style="display: flex; justify-content: center;" class="container">
-        <article>
-          <figure class="image is-128x128">
-            <img class="is-rounded" src="images/profile.jpg" alt="Matt Dumler" />
-          </figure>
-          <address>
-            <a href="mailto:mattd3v@pm.me">📧</a>
-            <a href="tel:+14698781470">📞</a>
-          </address>
-          <h1 class="title is-1">Matt Dumler</h1>
-          <p class="subtitle">
-            <span class="tag is-light">Developer</span>
-            <span class="tag is-light">Web</span>
-            <span class="tag is-light">Full-Stack</span>
-            <span class="tag is-light">CI/CD</span>
-            <span class="tag is-light">Testing</span>
-          </p>
-          <nav>
-            <a href="https://linkedin.com/in/mattd3v">
-              <span class="icon has-text-dark">
-                <i class="fab fa-linkedin-in"></i>
-              </span>
-            </a>
-            <a href="http://github.com/mattd3v">
-              <span class="icon has-text-dark">
-                <i class="fab fa-github"></i>
-              </span>
-            </a>
-            <a href="https://gitlab.com/mattd3v">
-              <span class="icon has-text-dark">
-                <i class="fab fa-gitlab"></i>
-              </span>
-            </a>
-            <a href="https://twitter.com/mattdumler">
-              <span class="icon has-text-dark">
-                <i class="fab fa-twitter"></i>
-              </span>
-            </a>
-          </nav>
-        </article>
-      </div>
+      <main class="container">
+        <figure class="image is-128x128">
+          <img class="is-rounded"
+            src="images/profile.jpg"
+            alt="Matt Dumler"
+            />
+        </figure>
+
+        <address>
+          <a title="Email Matt"
+            href="mailto:mattd3v@pm.me"
+            >📧</a>
+          <a title="Call Matt"
+            href="tel:+1-469-878-1470"
+            >📞</a>
+          <a title="Text Matt"
+            href="sms:+1-469-878-1470"
+            >💬</a>
+        </address>
+
+        <h1 class="title is-1"
+          >Matt Dumler</h1>
+
+        <p class="subtitle">
+          <span class="tag is-light">Developer</span>
+          <span class="tag is-light">Web</span>
+          <span class="tag is-light">Full-Stack</span>
+          <span class="tag is-light">CI/CD</span>
+          <span class="tag is-light">Testing</span>
+        </p>
+
+        <nav>
+          <a href="https://linkedin.com/in/mattd3v">
+            <span class="icon has-text-dark">
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+          </a>
+          <a href="http://github.com/mattd3v">
+            <span class="icon has-text-dark">
+              <i class="fab fa-github"></i>
+            </span>
+          </a>
+          <a href="https://gitlab.com/mattd3v">
+            <span class="icon has-text-dark">
+              <i class="fab fa-gitlab"></i>
+            </span>
+          </a>
+          <a href="https://twitter.com/mattdumler">
+            <span class="icon has-text-dark">
+              <i class="fab fa-twitter"></i>
+            </span>
+          </a>
+        </nav>
+      </main>
     </div>
-  </section>
   </body>
 </html>

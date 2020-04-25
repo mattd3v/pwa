@@ -1,0 +1,9 @@
+.hero-body, .image {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  font-size: 2rem;
+  margin: 0.75rem 1.5rem;
+}
