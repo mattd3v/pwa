@@ -1,9 +1,13 @@
 {
-  "short_name": "Developer",
+  "dir": "ltr",
+  "lang": "en-US",
   "name": "Matt Dumler",
-  "display": "standalone",
-  "background_color": "#000",
+  "short_name": "Matt",
+  "description": "Matt is a Software Developer",
+  "display": "fullscreen",
+  "orientation": "portrait-primary",
   "theme_color": "#000",
+  "background_color": "#000",
   "start_url": "/",
   "scope": "/",
   "icons": [
