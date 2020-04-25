@@ -16,5 +16,5 @@ jobs:
     steps:
       - uses: w9jds/firebase-action@v1.3.0
         with:
-          args: deploys --only hosting
+          args: deploys --only hosting --project $PROJECT_ID --token $FIREBASE_TOKEN
 
