@@ -1,0 +1,15 @@
+name: GitHub Action for Firebase
+
+env:
+  PROJECT_ID: matt-dumler-pwa
+  FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+jobs:
+  deploy:
+    name: Firebase Deploy
+    runs-on: ubuntu-lts
+    steps:
+      - uses: w9jds/firebase-action@v1.3.0
+        with:
+          args: deploys --only hosting
+
