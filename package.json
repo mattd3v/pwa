@@ -1,0 +1,22 @@
+{
+  "name": "@mattd3v/pwa",
+  "version": "1.0.0",
+  "description": "Modern webpages with progressive enhancement.",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattd3v/pwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattd3v/pwa/issues"
+  },
+  "homepage": "https://github.com/mattd3v/pwa#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
