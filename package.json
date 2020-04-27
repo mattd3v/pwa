@@ -1,5 +1,5 @@
 {
-  "name": "@mattd3v/pwa",
+  "name": "pwa",
   "version": "1.0.0",
   "description": "Modern webpages with progressive enhancement.",
   "private": true,
