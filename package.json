@@ -4,7 +4,7 @@
   "description": "Modern webpages with progressive enhancement.",
   "private": true,
   "scripts": {
-    "start": "eleventy --watch"
+    "start": "eleventy --serve --watch"
   },
   "repository": {
     "type": "git",
