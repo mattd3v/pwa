@@ -4,7 +4,10 @@
   "description": "Modern webpages with progressive enhancement.",
   "private": true,
   "scripts": {
-    "start": "eleventy --serve --watch"
+    "build": "npm run build:static && npm run build:app",
+    "build:static": "([  -d public/ ] || mkdir public) && cp -r static/* public/",
+    "build:app": "eleventy --input app/ --output public/",
+    "clean": "rm -rf public/"
   },
   "repository": {
     "type": "git",
